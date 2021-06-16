@@ -1,8 +1,11 @@
-# Mutation Sensitive Correlation Filter for Real-Time UAV Tracking with
+# Mutation Sensitive Correlation Filter for Real-Time UAV Tracking with Adaptive Hybrid Label
+
+The official implementation of [MSCF]([[2106.08073\] Mutation Sensitive Correlation Filter for Real-Time UAV Tracking with Adaptive Hybrid Label (arxiv.org)](https://arxiv.org/abs/2106.08073)) -- ICRA 2021
 
 
 # Abstract 
->Unmanned aerial vehicle (UAV) based visual tracking has been confronted with numerous challenges, e.g., object motion and occlusion. These challenges generally bring about target appearance mutations and cause tracking failure. However, most prevalent discriminative correlation filter (DCF) based trackers are insensitive to target mutations due to a predefined label, which concentrates on merely the centre of the target. Meanwhile, appearance mutations incited by occlusion or similar objects commonly lead to inevitable learning of erroneous information. To cope with appearance mutations, this paper proposes a novel DCF-based method to enhance the sensitivity and resistance to mutations with an adaptive hybrid label, i.e., MSCF. The ideal label is optimized jointly with the correlation filter and remains consistent with the previous label. Meanwhile, a novel measurement of mutations called mutation threat factor (MTF) is applied to correct the label dynamically. Through the revision of label into hybrid shape, MSCF can demonstrate preferable adaptability during appearance mutations. Considerable experiments are conducted on widely used UAV benchmarks. Results manifest the performance of MSCF tracker surpassing other 26 state-of-the- art DCF-based and deep-based trackers. With a real-time speed of ~38 frames/s, the proposed approach is sufficient for UAV tracking commissions.
+>Unmanned aerial vehicle (UAV) based visual tracking has been confronted with numerous challenges, e.g., object motion and occlusion. These challenges generally bring
+>about target appearance mutations and cause tracking failure. However, most prevalent discriminative correlation filter (DCF) based trackers are insensitive to target mutations due to a predefined label, which concentrates on merely the centre of the target. Meanwhile, appearance mutations incited by occlusion or similar objects commonly lead to inevitable learning of erroneous information. To cope with appearance mutations, this paper proposes a novel DCF-based method to enhance the sensitivity and resistance to mutations with an adaptive hybrid label, i.e., MSCF. The ideal label is optimized jointly with the correlation filter and remains consistent with the previous label. Meanwhile, a novel measurement of mutations called mutation threat factor (MTF) is applied to correct the label dynamically. Through the revision of label into hybrid shape, MSCF can demonstrate preferable adaptability during appearance mutations. Considerable experiments are conducted on widely used UAV benchmarks. Results manifest the performance of MSCF tracker surpassing other 26 state-ofthe- art DCF-based and deep-based trackers. With a real-time speed of 38 frames/s, the proposed approach is sufficient for UAV tracking commissions.
 
 
 
@@ -13,7 +16,7 @@ Email: changhong.fu@tongji.edu.cn
 
 Guangze Zheng
 
-Email: 1851960@tongji.edu.cn
+Email: mmlp@tongji.edu.cn
 
 # Demonstration running instructions
 
